@@ -10,3 +10,13 @@ public class Animal {
         return nome;
     }
 }
+public class Mamifero extends Animal {
+
+    public Mamifero(String nome){
+        super(nome);
+    }
+
+    public String tipo(){
+        return "Mamífero";
+    }
+}
